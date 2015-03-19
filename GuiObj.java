@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class GuiObj extends Actor
+public class GuiObj extends Actor implements IMouseHandler
 {
     /**
      * Act - do whatever the GuiObj wants to do. This method is called whenever
@@ -17,7 +17,7 @@ public class GuiObj extends Actor
         // Add your action code here.
     }
     
-    protected void onClick() {
+    public void onClick(int button) {
         
     }
 }

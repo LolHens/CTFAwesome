@@ -15,5 +15,9 @@ public class LoadButton extends Button
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    
+    public void onClick(int button) {
+        Greenfoot.setWorld(new Map(20, 12, new GreenfootImage("bg.png")));
+    }
 }
